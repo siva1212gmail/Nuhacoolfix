@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 64" width="280" height="64">
+  <defs>
+    <linearGradient id="logoGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b5ed7" />
+      <stop offset="100%" stop-color="#08408f" />
+    </linearGradient>
+    <linearGradient id="orangeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ff7a1a" />
+      <stop offset="100%" stop-color="#e05d00" />
+    </linearGradient>
+  </defs>
+  <rect x="4" y="6" width="52" height="52" rx="14" fill="url(#logoGrad)" />
+  <path d="M30 16 v32 M20 22 l20 20 M20 42 l20 -20" stroke="#ffffff" stroke-width="3" stroke-linecap="round" opacity="0.95" />
+  <circle cx="30" cy="32" r="5" fill="url(#orangeGrad)" stroke="#ffffff" stroke-width="2" />
+  <text x="68" y="32" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="800" fill="#08408f">NUHAA</text>
+  <text x="148" y="32" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="800" fill="#ff7a1a">COOL FIX</text>
+  <text x="68" y="49" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="600" fill="#506690" letter-spacing="1">SELLUR, MADURAI</text>
+</svg>

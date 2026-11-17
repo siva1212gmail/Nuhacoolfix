@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3730a3" />
+      <stop offset="100%" stop-color="#1e1b4b" />
+    </linearGradient>
+    <radialGradient id="glow" cx="80%" cy="30%" r="60%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.25" />
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0" />
+    </radialGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000000" flood-opacity="0.25" />
+    </filter>
+  </defs>
+  <!-- Background -->
+  <rect width="800" height="450" rx="16" fill="url(#bgGrad)" />
+  <rect width="800" height="450" rx="16" fill="url(#glow)" />
+  
+  <!-- Subtle decorative circles -->
+  <circle cx="700" cy="120" r="160" fill="#ffffff" fill-opacity="0.06" />
+  <circle cx="740" cy="340" r="120" fill="#ffffff" fill-opacity="0.04" />
+  <circle cx="120" cy="380" r="90" fill="#ffffff" fill-opacity="0.04" />
+  
+  <!-- Content Container Card -->
+  <g transform="translate(60, 70)">
+    <!-- Brand Tag -->
+    <rect x="0" y="0" width="180" height="32" rx="16" fill="#ff7a1a" />
+    <text x="90" y="21" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="700" fill="#ffffff" text-anchor="middle" letter-spacing="1">NUHAA COOL FIX</text>
+    
+    <!-- Title and Subtitle -->
+    <text x="0" y="90" font-family="system-ui, -apple-system, sans-serif" font-size="34" font-weight="800" fill="#ffffff" filter="url(#shadow)">Motherboard &amp; Power Board Fix</text>
+    <text x="0" y="135" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="500" fill="#e2e8f0">Dead TV, standby red light &amp; HDMI port troubleshooting</text>
+    
+    <!-- Service perks -->
+    <g transform="translate(0, 190)">
+      <rect x="0" y="0" width="160" height="38" rx="8" fill="#ffffff" fill-opacity="0.18" />
+      <text x="80" y="24" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="600" fill="#ffffff" text-anchor="middle">✓ Sellur &amp; Madurai</text>
+      
+      <rect x="175" y="0" width="175" height="38" rx="8" fill="#ffffff" fill-opacity="0.18" />
+      <text x="262" y="24" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="600" fill="#ffffff" text-anchor="middle">✓ Same Day Visit</text>
+      
+      <rect x="365" y="0" width="170" height="38" rx="8" fill="#ffffff" fill-opacity="0.18" />
+      <text x="450" y="24" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="600" fill="#ffffff" text-anchor="middle">✓ Clear Price First</text>
+    </g>
+  </g>
+  
+  <!-- Right-side Illustration Graphic -->
+  <g transform="translate(610, 225)" filter="url(#shadow)">
+    <circle cx="0" cy="0" r="95" fill="#ffffff" fill-opacity="0.15" stroke="#ffffff" stroke-width="2" stroke-opacity="0.3" />
+    <circle cx="0" cy="0" r="75" fill="#ffffff" />
+    <text x="0" y="22" font-size="70" text-anchor="middle">⚡</text>
+  </g>
+</svg>
